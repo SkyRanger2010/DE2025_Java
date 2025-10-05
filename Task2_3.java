@@ -1,14 +1,10 @@
 import java.util.Scanner;
-
-public class task2_9 {
+public class Task2_3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
-        int result = 0;
-        do  {
-            result += x % 10;
-            x /= 10;
-        } while (x != 0);
+        int n = sc.nextInt();
+        int k = sc.nextInt();
+        int result = k / (n + 1);
         System.out.println(result);
         sc.close();
     }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class task3_4 {
+public class Task3_4 {
     private static void reverse(int[] arr, int left, int right) {
         while (left < right) {
             arr[left] = arr[left] ^ arr[right];

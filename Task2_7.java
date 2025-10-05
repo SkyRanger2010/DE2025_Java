@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class task2_5 {
+public class Task2_7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int v = sc.nextInt();
-        int p = sc.nextInt();
-        String result = v > p ? "Vasya" : v == p ? "Same" : "Petya";
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int result = (a + b) / 2;
         System.out.println(result);
         sc.close();
     }
